@@ -6,3 +6,71 @@ html {
 *::after {
   box-sizing: inherit;
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-top {
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-link {
+  flex-grow: 1;
+}
+.logo-link img {
+  display: block;
+  width: 41px;
+  height: 41px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.header-un-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  list-style-type: none;
+  margin: 0;
+}
+.header-list-link {
+  color: #7D7987;
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.header-login-link {
+  color: #FB8F1D;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 45px;
+  border: 1px solid #FB8F1D;
+  border-radius: 8px;
+  padding: 0 46px;
+  margin-right: 18px;
+}
+.header-register-link {
+  font-size: 15px;
+  line-height: 45px;
+  color: #fff;
+  background-color: #FB8F1D;
+  padding: 0 36px;
+  border-radius: 8px;
+  text-decoration: none;
+}
